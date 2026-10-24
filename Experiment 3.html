@@ -4,15 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Time table</title>
-    <div>
-        <time datetime="2026-10-7"></time>
-        <h3>College Time Table</h3>
-    </div>
 </head>
 <body>
-    <h2>College Time Table</h2>
-    <table cellpadding="2" cellspacing="1" border="1">
-        <tr rowspan="2">
+    <table cellpadding="2" cellspacing="0" border="1" align="center">
+        <caption>College Timetable - CSE Department</caption>
+        <tr>
             <th>Day/Time</th>
             <th>9:00-10:00</th>
             <th>10:00-11:00</th>
@@ -22,31 +18,33 @@
             <th>2:00-3:00</th>
             <th>3:00-4:00</th>
         </tr>
+        <tr>
             <th>Monday</th>
-            <td rowspan="2">Mathematics</td>
-            <td>english</td>
-            <td rowspan="3" cellspace="1" align="center">Physics</td>
-            <td>Break</td>
-            <td colspan="2" cellspace="2" align="center">Computer Lab</td>
-            <td>Sports</td>
-        <tr>
-            <th>Tuesday</th>
-            <td>C Programming</td>
-            <td>Break</td>
-            <td>Electronic Lab</td>
-            <td>Library</td>
-            <td>sports</td>
-        </tr>
-        <tr>
-            <th><u>Wednesday</u></th>
             <td>Mathematics</td>
             <td>English</td>
-            <td>Break</td>
+            <td rowspan="3" align="center">Physics</td>
+            <td rowspan="5" align="center">Break</td>
+            <td>Computer Lab</td>
+            <td></td>
+            <td>Sports</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td></td>
+            <td>C Programming</td>
+            <td>Electronics Lab</td>
+            <td></td>
+            <td>Library</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Mathematics</td>
+            <td>English</td>
             <td>Computer Networks</td>
             <td colspan="2">
-                <table border="2">
-                    <tr colspan="2">
-                        <th colspan="2" cellspace="2" align="center"><u>Lab Details</u></th>
+                <table border="1" width="100%">
+                    <tr>
+                        <th colspan="2" align="center">Lab Details</th>
                     </tr>
                     <tr>
                         <td>Batch A</td>
@@ -60,21 +58,19 @@
             </td>
         </tr>
         <tr>
-            <th><u>Thursday</u></th>
-            <td colspan="2" cellspace="2" align="center">Workshop</td>
-            <td>physics</td>
-            <td>Break</td>
+            <th>Thursday</th>
+            <td colspan="2" align="center">Workshop</td>
+            <td>Physics</td>
             <td>Mathematics</td>
             <td>English</td>
             <td>Seminar</td>
         </tr>
         <tr>
-            <th><u>Friday</u></th>
+            <th>Friday</th>
             <td>Computer Networks</td>
             <td>English</td>
             <td>Physics</td>
-            <td>Break</td>
-            <td colspan="3" cellspace="2" align="center">Project Work</td>
+            <td colspan="3" align="center">Project Work</td>
         </tr>
     </table>
 </body>
